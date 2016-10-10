@@ -57,3 +57,5 @@ For me, the biggest issue is finding quality learning resources that WORK with t
 * -github-forHumans
 * -homebrew-forHumans
 * -npm-forHumans
+ 
+###End of day 1 - trying to get started with Elm
