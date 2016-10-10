@@ -7,3 +7,10 @@ This is the start of a series of articles for medium.com called forHumans() => {
 A project that helps ordinary people who want to create/code their own applications
 
 //TODO:: list articles that are on medium
+//TODO:: list planned articles for the forHumans 'platform'
+
+* -electron-forHumans
+* -elm-forHumans
+* -github-forHumans
+* -homebrew-forHumans
+* -npm-forHumans
