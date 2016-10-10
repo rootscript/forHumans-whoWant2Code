@@ -24,13 +24,16 @@ I've recently discovered medium.com and find a great comfort to find people that
  - *Javascript fatigue: You need at least 10 different libraries to get started on a react project. And those libraries change over time. Our typical project has around 20–40 dependencies*.
  - *A language unfit for purpose: Javascript lets you do things that you shouldn’t (99% of the time), like mutating object values.*"
  
-I found this to be a timely and greatly encouraging article, that makes me feel that I've started to learn to code at just the right time; the last 2 months I've been playing with ES6, RxJS, Ractive, doing lots of reading about every framework I can. If I hadn't taken the first step towards Elm, I would still be ES6 land, learning RxJS and hoping to move to other pieces of the puzzle like Mori.js, Cycle.js, Ramda (amongst others) in the future (always in my mind was a guiding light saying "avoid Angular & React, they too cemented in the current & unable to change quickly without upsetting their large user bases").
+I found this to be a timely and greatly encouraging article, that makes me feel that I've started to learn to code at just the right time; the last 2 months I've been playing with ES6, RxJS, Ractive, doing lots of reading about every framework I can. If I hadn't taken the first step towards Elm, I would still be ES6 land, learning RxJS and hoping to move to other pieces of the puzzle like Mori.js for immutatble goodness from Clojure, Cycle.js as different way of looking at interaction, Ramda.js for being full of curry & functional style (amongst others), BUT always in my mind was a guiding light saying "avoid Angular & React, they too cemented in the current & unable to change quickly without upsetting their large user bases, don't follow the crowd!".
+
+###Losing everything I know, and taking the plunge into Elm.
 
 Despite my short life as a coder, it has been relatively easy for me to find the shortest path to success, experimenting along the way, has led to to Elm.  I could see Elm as something to head towards, I just thought that it was a language for extreme experts who were living very close to the edge, but were so comfortable in their own abilities, that they could do anything.
-The second hardest part for me, is throwing away all the application that I've written over the last  two months in Electron & ES6 (I will be keeping the Electron part, but rewriting all the other parts in Elm; that is if I'm good enough, presently I can't even manage an Elm Hello World!).
+The second hardest part for me, is throwing away all the applications that I've written over the last two months in Electron & ES6 (I will be keeping the Electron parts, but rewriting all the other parts in Elm; that is if I'm good enough, presently I can't even manage an Elm Hello World!).
 
 Well now i'm on my way, after 2 months of learning Javascript, testing frameworks, and looking for a solution going forward, I've decided on a solution that makes sense & is worth investing time in learning.  Maybe I'm cleverer than I give myself credit for, analysing the state of play, going functional & immutable now seems like a sensible decision.  I am just lucky that I haven't had years of JavaScript under my belt, clouding & holding my ability to judge the current state of coding.
- 
+
+There are still a few things in the JavaScript world that interest me, where time allows I would like to take a look at Folktale.js in order to try and get to the maths (despite my small brain)
 
 ###*Places to chat with people about Elm*
 That article on medium.com, by Freeman Latin also mentions:
@@ -39,7 +42,9 @@ That article on medium.com, by Freeman Latin also mentions:
 
 I'm not sure if I'm ready for 'talking to people yet', I've always felt that in coding communities, you have to justify your existence and intentions, and the quality of your questions is important; which I agree with to some extent, but find it is restrictive.
 
-Maybe once I feel a little more comfortable, I'd like to go somewhere only populated by Elm newbies, policed occasionally by some elder Elm folk.   We'll see how that goes
+Maybe once I feel a little more comfortable, I'd like to go somewhere only populated by Elm newbies, policed occasionally by some elder Elm folk.   We'll see how that goes, the 'beginners' channel in Slack Elm seems like a good place to watch for a while, until I get a voice :o)
+
+before I forget, the author of that medium.com article (Freeman Latif) says that he is in the process of writing a book called “Elm for React Developers”.  Will log it here & keep an eye out for it.
 
  ---
 
@@ -52,7 +57,23 @@ For me, the biggest issue is finding quality learning resources that WORK with t
 ###break time :o)
 Ok, so that's the first half of today out the way, time for dinner, & I'll resume reading up on Elm tonight (and add more to this document)
 
+Here are a few podcasts, that put Elm in some human context ( sometimes it is good to hear people talk, without them being in 'conference mode' ):
+
+[218: Elm with Evan Czaplicki and Richard Feldman](https://changelog.com/218/)
+
+[191: Elm and Functional Programming with Richard Feldman](https://changelog.com/191/)
+
+One of the things that had bothered me over my last 2 months of trying to become a coder, was that I could get things to work without fully understanding what I was dealing with.  Looking at this statement, and qualifying it further, I should say that JavaScript & Electron allowed me to fiddle and produce desktop apps that worked, and looked like the ideas I had dreamt of creating.  However those applications were patched together from hundreds of attempts with different frameworks & node_modules, and lots of self learning trial & error.
+
+The npm ecosystem which seemed to encourage small modules that did 'one thing well', seemed like an interesting path for me to choose.  The reality was that although I found some useful modules, I was constantly looking for another module, that did something better or cleaner, the choice of node_modules is bewildering, and I was never certain if there was some better way of doing what I wanted.
+
+The fact that without a great deal of knowledge, I could make JavaScript applications that worked, was encouraging at the time, but now I want to look at the longterm, and I really wonder what I could build if I invest sometime into making apps that work as well as possible.  That is really exciting, and I think that Elm is the way to go.
+
 ---
+
+###Another medium article - let's get it working in Elm Electron
+
+<https://medium.com/@zenitram.oiram/a-beginners-guide-to-json-and-elm-c4a0c7e20002#.fhm48t172>
 
 ###So what is next?
 * document my attempt to start learning Elm.
