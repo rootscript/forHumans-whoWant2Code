@@ -96,4 +96,4 @@ The fact that without a great deal of knowledge, I could make JavaScript applica
 * -homebrew-forHumans
 * -npm-forHumans
  
-###End of day 1 - trying to get started with Elm
+###End of day 2 - trying to get started with Elm
