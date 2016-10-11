@@ -13,7 +13,7 @@ The Electron framework	is a key part of what I think is a very nice platform for
 
 ---
 
-###Useful resources that I've found that will help learn Elm
+###Useful articles that encouraged me to learn Elm
 
 Ok so this is day 02, and despite not having learnt anything major on day 01, I'm still here and want to plan what and where to find the next steps.   I'd like to create a list of resources as I find them, and give my first honest impressions as to whether I think they will be useful.
 

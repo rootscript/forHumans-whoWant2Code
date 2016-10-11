@@ -5,7 +5,7 @@
 
 This is a part 03 of a diary of a new user trying to learn the Elm language.  Part 01 was a draft of an article `-elm-forHumans` for the medium.com series called `forHumans() => {whoWant2Code}`
 
-The main project aim is to help ordinary people who want to create/code their own applications that use web technologies, to create their own native applications & not just 'traditional' web pages trapped in a a current version of Chrome, Safari, or Firefox; and able to access local files etc... with fewer browser based restrictions.
+The main project aim is to help ordinary people who want to create/code their own applications that use web technologies, to create their own native applications & not just 'traditional' web pages trapped in a a current version of Chrome, Safari, or Firefox; but able to access local files, interact with the system OS, etc... with fewer browser based restrictions.
 
 The second aim of the project is to encourage people who are learning Elm, to contribute back to the project, and provide them the means & structure to do that.
 
@@ -17,9 +17,10 @@ Secondly, everyone is fairly chatty - It felt a little like going out for a drin
 
 I asked the question if anyone was interested in getting Elm to work with Electron, and found there were a few who were interested, and a few willing to give some guidance ( without having to beg for help ).  It seems like my basic idea of just using `elm-make` to compile `Main.elm` to `index.js`, and then `require` the .js file into the `index.html` was the same basic integration that others were looking at too ( That was encouraging ).
 What surprised me was that there was also an `electron` channel in the elm-lang Slack group.  I was kindly directed there and told that there was an `elm-electron` interop set of modules that had been worked on, this would expose the Electron API to Elm through `ports`, so that Elm could talk '*directly*' (through a port) to the Electron `screen` module etc...
+
 ...to be continued
 
-I left a few questions in the electron channel, I was warned it might be quiet ( I had the pleasure of being the 3rd post ever in the channel, we will need to encourage some more magnetism ! )
+I left a few questions in the electron channel.  I had been warned it might be quiet ( I had the pleasure of being the 3rd post ever in the channel, we will need to encourage some more magnetism ! )
 
 ---
 
@@ -41,13 +42,13 @@ Here is what I wrote a few days ago, on the subject:
 
 *For me, the biggest issue is finding quality learning resources that WORK with the current version of Elm 0.17. I think if a language had a manifesto it should include that all training videos, tutorial articles, language documentation etc... have the version of Elm stamped on every page, and every code file has a comment with the Elm version number. People pick up various fragments of code from many places, and when things don't work due to this problem, even the best resources become a reason to give up or avoid learning further.*
 
-After today I feel a little better ( now I will have a chance ), maybe there could even be a list of links to outdated tutorials whether written, in Github repos, or Youtube videos, and volunteers could have a go at upgrading them to the latest version of Elm, and crossing them off the list of elm resources to avoid?
+After today I feel a little relieved ( now I will have a chance chance to learn Elm ), maybe there could even be a list of links to outdated tutorials whether written, in Github repos, or Youtube videos, and volunteers could have a go at upgrading them to the latest version of Elm, and crossing them off the list of elm resources to avoid?
 
 ---
 
-###Losing everything I know, and learning 'Alien speak', I mean Elm - part 2.
+###Losing everything I know, and learning 'Alien speak', I mean Elm.
 
-Today I had a mixed set of feelings, 'a little blushed' & and 'a little proud'.  My 2 months of accelerated learning to code was commended, as was the 20 years someone had spent coding, as were various other lengths of time in between.  I felt comfortable that there was also another person in the discussion who had also only done 2 days of learning Elm.  The interesting part was that someone mentioned that because I didn't have much experience with other programming languages, that it might be a benefit, as I wouldn't have predefined views on 'how things are done'.
+Today I had a mixed set of feelings, 'a little blushed' and 'a little proud'.  My 2 months of determined learning to code was appreciated, as was the 20 years someone had spent coding, as were various other lengths of time in between.  I felt comfortable that there was also another person in the discussion who had also only done 2 days of learning Elm.  An interesting comment that someone mentioned was: the fact that I didn't have much experience with other programming languages, might be a benefit, as I wouldn't have predefined views on 'how things are done'.
 
 In my reality, I was finding it very tough, to leave the endless libraries of 'one thing well' node modules & little ES6 techniques that I had built into my little toolbox of knowledge.  Taking the step towards Elm, felt like someone ripping away my gold medal, let me explain:
 
@@ -73,7 +74,7 @@ There is a very well written guide, that gave me some hope, it's here:
 
 <https://guide.elm-lang.org/interop/javascript.html>
 
-I would love it to be backed up with some examples that **focus** on this with some well known node_modules, and maybe a dedicated place to go, where you could find integration work that had been done before, or at least find a guide as to how ( if you had the Elm & node skills ) you might author an Elm helper module exposing a node_module API.
+I would love it to be backed up with some examples that **focus** on this with some small, but well known node_modules, and maybe a dedicated place to go, where you could find integration work that had been done before, or at least find a guide as to how ( if you had the Elm & node skills ) you might author an Elm helper module exposing a node_module API.
 
 ---
 
