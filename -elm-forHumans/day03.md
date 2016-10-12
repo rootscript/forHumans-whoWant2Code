@@ -36,7 +36,9 @@ A Farewell to FRP - <http://elm-lang.org/blog/farewell-to-frp>
 
 Upgrading to 0.17 - <https://github.com/elm-lang/elm-platform/blob/master/upgrade-docs/0.17.md>
 
-Elm 0.17: Successful Upgrade of Real World App …and some soft of guide to all of this - <https://medium.com/@turbo_MaCk/elm-0-17-successful-upgrade-of-real-world-app-and-some-soft-of-guide-to-all-of-this-cafd59dec56f#.pthtw81gy>
+Elm 0.17: Successful Upgrade of Real World App …and some soft of guide to all of this - <https://medium.com/@turbo_MaCk/elm-0-17-successful-upgrade-of-real-world-app-and-some-soft-of-guide-to-all-of-this-cafd59dec56f#.pthtw81gy
+
+Migrating from Elm 0.16 to 0.17 - from StartApp - <http://www.lambdacat.com/migrating-from-elm-0-16-to-0-17-from-startapp/>
 
 Here is what I wrote a few days ago, on the subject:
 
