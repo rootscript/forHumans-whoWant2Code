@@ -7,13 +7,42 @@ This is a part 04 of a diary of a new user trying to learn the Elm language.  Pa
 
 The main project aim is to help ordinary people who want to create/code their own applications that use web technologies, to create their own native applications & not just 'traditional' web pages trapped in a a current version of Chrome, Safari, or Firefox; but able to access local files, interact with the system OS, etc... with fewer browser based restrictions.
 
-The second aim of the project is to encourage people who are learning Elm, to contribute back to the project, and provide them the means & structure to do that.
+The second aim of the project is to encourage people who are learning Elm, to contribute back to the project, and provide them the means & structure to do that.  One thing that usually is hard to discover, is how to setup your code editor of choice to syntax highlight, code complete, display documents etc... and specifically with Elm, to use elm-format, elm-make, elm-reactor.  Finally how to get the latest docket for the Elm language and be able to view them locally & offline.
+
+I started trying to get Webstorm setup, but got sidetracked on the idea that if I also collated everything I could for Atom, LightTable, and Visual Studio Code, it would be a nice single place to come to get your environment setup, but also a nice place to come and contribute any further tips.
+I think it would be best to have a section in the Repo, which gets published with Github pages.
 
 ###Using Elm in Jetbrains Webstorm
 
 I didn't look at a single line of Elm code today again!, I have just been thinking/tinkering about setting up my development environment.   We all have our favourite code editors that we have become familiar with & have customised yo our liking.  In the past I have tried using Sublime, Atom, and Visual Studio code.  My preference is for Webstorm, but as Elm isn't mainstream yet, customising it towards the Elm language isn't well documented.
 
 Today I'm going to document my Webstorm setup for Elm 0.17
+
+####elm-plugin
+
+Elm language plugin for IntelliJ IDEA ( Webstorm ) with these features:
+
+*   Supports Elm 0.17.0
+*   Parsing the syntax
+*   Syntax highlighting and color settings page
+*   Going to declaration
+*   Highlighting unresolved references with a quick-fix option to add an import statement
+*   Code completion
+*   Spellchecking
+*   Brace matching
+*   Rename refactoring
+
+Formatting is currently not a feature of the plugin, but the `elm-format` plugin can be used instead.
+
+####elm-format
+
+This is for WebStorm and other JetBrains IDEs.
+
+1.  Install elm-format
+2.  Install the [Elm Language Plugin](https://durkiewicz.github.io/elm-plugin/) package.
+3.  Add a file watcher for .elm files with the settings as [shown here](/avh4/elm-format/blob/master/img/JetBrains%20setup.png).
+
+####elm-make
 
 I'm trying to setup a File Watcher in Webstorm to convert .elm files to javascript. I have the node_module elm installed, but I cannot find any docs with examples.
 
@@ -68,7 +97,57 @@ And you have to make sure that your file watcher is listening to changes in .elm
 
 ...to be continued
 
+####elm-reactor
 
+####elm-oracle
+
+This might be useful to someone:
+
+`elm-oracle Main.elm Html.text | jq`
+
+I use `| jq` to pipe the output from elm-oracle to something human readable
+
+
+```
+[
+  {
+    "name": "text",
+    "fullName": "Html.text",
+    "href": "http://package.elm-lang.org/packages/elm-lang/html/latest/Html#text",
+    "signature": "String -> Html.Html msg",
+    "comment": " Just put plain text in the DOM. It will escape the string so that it appears\nexactly as you specify.\n\n      text \"Hello World!\"\n"
+  },
+  {
+    "name": "textarea",
+    "fullName": "Html.textarea",
+    "href": "http://package.elm-lang.org/packages/elm-lang/html/latest/Html#textarea",
+    "signature": "List (Html.Attribute msg) -> List (Html.Html msg) -> Html.Html msg",
+    "comment": " Represents a multiline text edit control. "
+  }
+]
+```
+You probably will need to install js ( it isn't that well known, but is VERY useful ):
+`npm install jq`
+
+---
+
+###Using Elm in Atom
+
+in progress.
+
+---
+
+###Using Elm in LightTable
+
+in progress.
+
+---
+
+###Using Elm in Visual Studio Code
+
+in progress.
+
+//TODO:: add links back to any Github repo's issues, so that users can contribute back to the source of any plugins etc...
 
 ---
 
@@ -119,7 +198,7 @@ just jotting down some thoughts,
 
 ###Losing everything I know, and learning 'Alien speak', I mean Elm.
 
-Sometimes I think about things too much, running before I can walk, looking at advanced topics before I can do a 'Hello World!', it's in my nature to look ahead at the difficult parts and get some perspective, so that I can learn to walk while going towards the right direction.  I've always had an instinct to go towards trouble, I'm not sure why? When it comes to coding all that realistically means is that I can put a few sentences together that sound like I might know what I'm doing, get my feet a little wet, but never produce a best of class solution at this moment own time.
+Sometimes I think about things too much, running before I can walk, looking at advanced topics before I can do a 'Hello World!', it's in my nature to look ahead at the difficult parts and get some perspective, so that I can learn to walk while going towards the right direction.  I've always had an instinct to go towards trouble, I'm not sure why? When it comes to coding all that realistically means is that I can put a few sentences together that sound like I might know what I'm doing, get my feet a little wet, but never hope to produce a best of class solution at this moment in time.
 
 I need progress, not perfection.  Perfection will come if I do my best to make make progress.
 
