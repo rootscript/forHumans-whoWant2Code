@@ -7,7 +7,7 @@ This is a part 04 of a diary of a new user trying to learn the Elm language.  Pa
 
 The main project aim is to help ordinary people who want to create/code their own applications that use web technologies, to create their own native applications & not just 'traditional' web pages trapped in a a current version of Chrome, Safari, or Firefox; but able to access local files, interact with the system OS, etc... with fewer browser based restrictions.
 
-The second aim of the project is to encourage people who are learning Elm, to contribute back to the project, and provide them the means & structure to do that.  One thing that usually is hard to discover, is how to setup your code editor of choice to syntax highlight, code complete, display documents etc... and specifically with Elm, to use elm-format, elm-make, elm-reactor.  Finally how to get the latest docket for the Elm language and be able to view them locally & offline.
+The second aim of the project is to encourage people who are learning Elm, to contribute back to the project, and provide them the means & structure to do that.  One thing that usually is hard to discover, is how to setup your code editor of choice to syntax highlight, code complete, display documents etc... and specifically with Elm, to use elm-format, elm-make, elm-reactor.  Finally how to get the latest docset for the Elm language and be able to view them locally & offline.
 
 I started trying to get Webstorm setup, but got sidetracked on the idea that if I also collated everything I could for Atom, LightTable, and Visual Studio Code, it would be a nice single place to come to get your environment setup, but also a nice place to come and contribute any further tips.
 I think it would be best to have a section in the Repo, which gets published with Github pages.
@@ -101,6 +101,8 @@ And you have to make sure that your file watcher is listening to changes in .elm
 
 ####elm-oracle
 
+`elm-oracle` can be run in the Terminal to query information about an .elm file.  You can install it using `npm` (the node package manager) like so: `npm install -g elm-oracle`
+
 This might be useful to someone:
 
 `elm-oracle Main.elm Html.text | jq`
@@ -150,8 +152,18 @@ in progress.
 //TODO:: add links back to any Github repo's issues, so that users can contribute back to the source of any plugins etc...
 
 ---
+### Elm Language documentation
 
-###Useful resources that to help learn the current 0.17 version of Elm
+Lastly, lets recap on anything common to all, like the Elm language documentation.
+
+Docsets for Elm that can be used with Dash (OS X) and Zeal (Windows & Linux) can be downloaded from here: <http://newyork.kapeli.com/feeds/zzz/user_contributed/build/Elm/Elm.tgz>
+
+On Mac OS X (yes I am using a build for OS X) the docket can be unpacked here `/Users/yourUserName/Library/Application Support/Zeal/Zeal/docsets`
+
+
+---
+
+###Useful resources for the current 0.17 version of Elm
 
 Side project idea - I was looking for a JSON url feed for http://package.elm-lang.org/
 Basically I'm trying to get a list of all the elm packages, descriptions, links etc...
@@ -189,7 +201,7 @@ Basically I'm trying to get a list of all the elm packages, descriptions, links 
 
 Maybe could do something like `elm-package diff elm-lang/core 3.0.0 4.0.0`
 
-I could even do this part in node exec chip process ???
+I could even do this part in node exec child process ???
 
 just jotting down some thoughts,
 
@@ -208,9 +220,11 @@ Yesterday I wrote about my apprehension of talking in the elm-lang Slack channel
 
 [**Go to the Elm Slack channel**](http://elmlang.herokuapp.com/)
 
-Here is another place that I find interesting as there are discussions as to where the Elm language is going:
+Here are some other places that I find interesting as there are discussions as to where the Elm language is going:
 
-[**Go to Elm Discuss on Google Groups**](https://groups.google.com/forum/#!forum/elm-discuss)
+[**Go to Elm Discuss on Google Groups**](https://groups.google.com/forum/#!forum/elm-discuss) - This list exists to discuss anything Elm related, from beginner questions to compiler design.
+
+[**Go to Elm Dev on Google Groups**](https://groups.google.com/forum/#!forum/elm-dev) - This list is for work on Elm, not design discussion or Q&A with devs.
 
 And elm reddit:
 https://www.reddit.com/r/elm/
