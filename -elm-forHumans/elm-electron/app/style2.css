@@ -1,0 +1,290 @@
+:root {
+    --awesome-color: pink;
+    --hLarge: 0;
+    --hMedium: 360px;
+    --hSmall: 240px;
+    --hTiny: 120px;
+}
+
+body {
+    background-color: var(--awesome-color);
+}
+
+
+#main{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;}
+#header
+{
+    position: absolute;
+    height: 0;
+    top: 14px;
+    left: 0;
+    right: 9px;
+    text-align:center;
+    display:block;
+}
+#content
+{
+    position: absolute;
+    top: 41px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow:scroll;
+
+
+}
+#footer
+{
+    position: absolute;
+    height: 120px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+    display:block;
+}
+#footerSpacer{
+    height: 120px;
+}
+
+.myarrow {
+    position: relative;
+    padding: 12px 0;
+}
+.myarrow:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border-width: 0 8px 12px 8px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page {
+    border-top: rgba(0, 255, 0, 0.5) solid 0;
+    border-bottom: rgba(255, 0, 0, 0.5) solid 0;
+    border-left: rgba(255, 0, 0, 0.5) solid 2px;
+    border-right: rgba(255, 0, 0, 0.5) solid 2px;
+    border-radius: 0;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.7);
+    background-color: rgba(246, 246, 246, 0.7);
+    margin-left: 10px;
+    margin-right: 1px;
+    padding: 5px 4px 5px;
+    height: 133%;
+}
+
+.pageTop {
+    border-top: rgba(255, 0, 0, 0.5) solid 2px;
+    border-bottom: rgba(255, 0, 0, 0.5)  0;
+    border-left: rgba(255, 0, 0, 0.5) solid 2px;
+    border-right: rgba(255, 0, 0, 0.5) solid 2px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    background-color: rgba(246, 246, 246, 0.7);
+    margin-left: 10px;
+    right: -10px;
+    margin-right: 3px;
+    padding: 26px 0 0;
+}
+.pageBot {
+    border-top: rgba(255, 0, 0, 0.5) solid 0;
+    border-bottom: rgba(255, 0, 0, 0.5) solid 2px;
+    border-left: rgba(255, 0, 0, 0.5) solid 2px;
+    border-right: rgba(255, 0, 0, 0.5) solid 2px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    background-color: rgba(246, 246, 246, 0.7);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 4px 5px;
+}
+
+
+button {
+    cursor: pointer;
+}
+.btn {
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: white;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    transition: 0.3s;
+    background-color: var(--awesome-color);
+}
+.edgeTL {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    float: left;
+    font-size: 12px;
+    z-index: 999;
+}
+.edgeTR {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    float: right;
+    font-size: 12px;
+    z-index: 999;
+}
+
+html, body {
+    margin: 0 auto;
+    font-family: "Verdana", sans-serif;
+    background-color: rgba(246, 246, 246, 0);
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+
+
+.header-bar{
+    padding-top: 20px;
+}
+
+
+
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+output {
+    font-size: 2em;
+    padding: .3em;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 0;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #840000;
+    border: 1px solid #802113;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #f90000;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #ff2b2b;
+}
+::-webkit-scrollbar-track {
+    background: #e80000;
+    border: 0px none #ffffff;
+    border-radius: 53px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+
+#rxoutputMouse h4{
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+#modelThumb {
+    width: 320px;
+    height: 270px;
+}
+
+
+*:not(pre) { font-family: sans-serif; }
+#search { display: block; }
+
+#completions::before {
+    content: 'Completion: ';
+    display: block;
+    font-family: sans-serif;
+    padding: 5px 0 10px 0;
+}
+#completions {
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    background-color: #eee;
+}
+
+#playerContainer {
+
+}
+.playerdiv {
+
+}
+
+::selection {
+    background:rgba(255, 255, 125, 0.99);
+    color:red;
+}
+
+webview {
+    display:inline-flex;
+    width:470px;
+    height:640px;
+}
+webview.hide {
+    flex: 0 1;
+    width: 0px;
+    height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BUGFIX:: LINK:: https://github.com/electron/electron/issues/4420*/
+
+

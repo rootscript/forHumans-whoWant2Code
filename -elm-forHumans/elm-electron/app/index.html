@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Elm-Electron!</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+    <body>
+    <!--<webview id="foo" src="http://localhost:8000/build/index.html" autosize="on"></webview>-->
+    <script type="text/javascript">
+        "use strict"
+//        let app = require("./index.js").Main.fullscreen();
+        const {ipcRenderer} = require('electron')
+        const webview = document.getElementById('foo');
+        webview.addEventListener('dom-ready', () => {
+            console.log('dom-ready');
+        });
+    </script>
+
+
+
+    <div id="footer"class="pageBot">
+        <div>Node.js <script>document.write(process.version)</script></div>
+        <div>Electron <script>document.write(process.versions.electron)</script></div>
+        <div>Chrome <script>document.write(process.versions.chrome)</script></div>
+        <div>Elm <script>document.write(process.versions.elm)</script></div>
+        <!--<script>let app = require("./index.js").Main.fullscreen();</script>-->
+        <script>let app = require("./index.js").Main.fullscreen();</script>
+        <div id="rxoutputMouse">output text here</div>
+        <button class="btn" onclick="const {ipcRenderer} = require('electron');ipcRenderer.send('scrollbarDebug');console.log('dscrollbar-debug-on');">scrollbar debug</button>
+        I am debug Footer.
+        Obsevables coming soon...
+    </div>
+    </body>
+    <script>
+        require('./render-electron.js');//had to add this here to get rxjs to work
+
+    </script>
+
+</html>
