@@ -35,21 +35,8 @@ type alias Model =
 
 
 
---program is looking for 3 properties (model, view , update)
-
-
-main =
-    Html.App.program
-        { init = init
-        , update = update
-        , view = view
-        , subscriptions = \_ -> Sub.none
-        }
-
-
-
 -- model is a list of repos & a messagePlaceholder string;
---we initialize it using the empty list & text, that will be there when start our app
+--we initialize model using the empty list & text, that will be there when the app starts
 
 
 init =
@@ -63,8 +50,21 @@ init =
 
 
 
+--program is looking for 3 properties (model, view , update)
+
+
+main =
+    Html.App.program
+        { init = init
+        , update = update
+        , view = view
+        , subscriptions = \_ -> Sub.none
+        }
+
+
+
 --This decoder uses Json.Decode.object3 to extract 3 fields from a JSON value
---(id name full_name) and then constructs a RepoInfo value
+--(id, name, full_name) and then constructs a RepoInfo value
 
 
 repoInfoDecoder : Json.Decoder RepoInfo
@@ -77,7 +77,7 @@ repoInfoDecoder =
 
 
 
-{- our API returns an array of artists,
+{- our API returns an array of project repos,
    so in our request we will use Json.Decoder.list RepoInfo
    to extract a List RepoInfo from the JSON.
 -}
