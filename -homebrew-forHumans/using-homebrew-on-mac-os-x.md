@@ -1,6 +1,6 @@
 # using homebrew on Mac OS X
 
-### forHumans() => {whoWant2Code}
+### forHumans() => {whoWant2Code}   [![Join the chat at https://gitter.im/rootscript/forHumans-whoWant2Code](https://badges.gitter.im/rootscript/forHumans-whoWant2Code.svg)](https://gitter.im/rootscript/forHumans-whoWant2Code?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Homebrew is a package manager for Mac OS X that installs apps and libraries etc… It is like the Mac App Store for coders and people who like free open source applications.
 
