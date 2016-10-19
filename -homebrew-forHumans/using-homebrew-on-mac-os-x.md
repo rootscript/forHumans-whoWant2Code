@@ -8,6 +8,22 @@ Using Homebrew you can install, uninstall, and update to the latest versions of 
 
 Here are a couple of homebrew commands that I use that Iuse in Terminal on my Mac, and might forget to use:
 
+```bash
+#Any line starting with the symbol # is a comment to help explain the command below it.
+
+#Use this command to list anything that's installed that has a new version to update to.
+brew outdated
+
+#Here I can update all outdated items.
+brew upgrade `brew outdated`
+
+#Here I check for updates to Homebrew itself.
+brew update
+
+#Here I check for any problems with Homebrew.
+brew doctor
+```
+
 <script src="https://gist.github.com/rootscript/4d16516b14fc2a1dd7be188cda668839.js"></script>
 
 Really all I’m looking for are the magic words : “Your system is ready to brew”, which means that there are no errors & I’m ready to install something new, and evrerything is updated to the lastest versions.
