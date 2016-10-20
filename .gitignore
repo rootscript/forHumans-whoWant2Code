@@ -1,2 +1,9 @@
-
+/.vscode/
+elm-stuff/
+build/
+node_modules/
+.gitattributes
+.gitignore
+.idea/
 *.zip
+electron-elm/
