@@ -1,0 +1,28 @@
+#-elm-forHumans - day 05
+### forHumans-whoWant2Code
+
+[![Join the chat at https://gitter.im/rootscript/forHumans-whoWant2Code](https://badges.gitter.im/rootscript/forHumans-whoWant2Code.svg)](https://gitter.im/rootscript/forHumans-whoWant2Code?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+This is a part 05 of a diary of a new user trying to learn the Elm language.  Part 01 was a draft of an article `-elm-forHumans` for the medium.com series called `forHumans() => {whoWant2Code}`
+
+The main project aim is to help ordinary people who want to create/code their own applications that use web technologies, to create their own native applications & not just 'traditional' web pages trapped in a a current version of Chrome, Safari, or Firefox; but able to access local files, interact with the system OS, etc... with fewer browser based restrictions.
+
+The second aim of the project is to encourage people who are learning Elm, to contribute back to the project, and provide them the means & structure to do that.  One thing that usually is hard to discover, is how to setup your code editor of choice to syntax highlight, code complete, display documents etc... and specifically with Elm, to use elm-format, elm-make, elm-reactor.  Finally how to get the latest docset for the Elm language and be able to view them locally & offline.
+
+I started trying to get Webstorm setup, but got sidetracked on the idea that if I also collated everything I could for Atom, LightTable, and Visual Studio Code, it would be a nice single place to come to get your environment setup, but also a nice place to come and contribute any further tips.
+
+We can all do things in JS & Node, and we would like to do them in Elm with all the protection that the language offers, but we don't want to lose all the functionality of whatever we can do in JS & node.  For those who know how to code in Elm, moving JS applications to Elm is just a matter of writing the code in Elm.  For those learning Elm, it is a battle between trying to learn a new language which seems to only expose certain parts which are mature enough to be documented; which really is a limited set of things, and trying to convince or ask for help from Elm people in the know.  So now on my 5th day, what do I really think about Elm and learning it?  The following is an unedited version, that comes straight out, exactly as I feel it, it is typed.
+
+###So what do I think after 5 days of Elm ( honestly )
+
+Well Elm is an ongoing project that appears to be in the hands on one person, with some other key people that inject some very diplomat `solutions` that try to balance between Elm's strict focus & direction & the practical implementation of using a language that is evolving, and a user base that has needs/wants to achieve things now.
+
+In my opinion, it really does help to have a single overview of a project, a global view that takes everything into account using judgement as to which parts are core ( vital to the projects integrity ), and which parts are fringe ( things that are nice to have, but as yet are not mature enough, or as yet have not been developed or explored fully ).  My view as a new starter, is that I want / need to know what is `core` & what is `fringe`, and when will all of these parts be worked on, and when can I use them.   This is something that I have found hard to find, some kind of overview as to where we were ( what has been added / removed ), and where we are going, a historical roadmap.
+
+After 5 days with Elm, I am in at least 2 minds about what to do with it.
+
+- documentation IS a problem in Elm.  Because it is a new language, people try to document their successes, so that others can benefit.  Many articles are out of date, and documentation focusses on what you can do, but ignores what a JS transitioner might expect, stuff that you can't do & temporary work arounds that are not ideal. It lacks things that will help get you up and running under the premise that 'this isn't the correct Elm way of doing things, but it will get your code working, and we are looking at ways to make this easier & implement it into the language'.  Maybe the documentation could link to future proposals, to at best allow people to contribute & comment, and at worst alleviate the unknown by just confirming that it is a detail that is going to be worked on further, and it has a single place to go to get more information on it's progress.
+- I wish that there was some kind of documentation manager, which indicated `levels` of accuracy & confidence.  By that last sentence I mean that we are a community, all with different perspectives & proficiency in the Elm language, and we all publish guides, articles, and documentation to different places scattered on the internet, and that it would very nice to be able to register any documentation for approval or improvement to those higher up the Elm list of people who can check for problems or enhance solutions by making them easier to understand, injecting their knowledge to the current contemporary topics being published.  This would be very useful, as it would be one place to go that collated everything, and could be trusted to be available to be improved & seen by those able to contribute, and finally that it could be steered by anyone who had a voice & was willing to publish an article or document.
+
+ 
+###End of day 5 - trying to get started with Elm
