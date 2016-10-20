@@ -21,7 +21,7 @@
         <div>Node.js <script>document.write(process.version)</script></div>
         <div>Electron <script>document.write(process.versions.electron)</script></div>
         <div>Chrome <script>document.write(process.versions.chrome)</script></div>
-        <div>Elm <script>document.write(process.versions.elm)</script></div>
+        <div>Elm <script>document.write(process.env.npm_package_devDependencies_elm)</script></div>
         <!--<script>let app = require("./index.js").Main.fullscreen();</script>-->
         <script>let app = require("./index.js").Main.fullscreen();</script>
         <div id="rxoutputMouse">output text here</div>

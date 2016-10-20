@@ -1,18 +1,22 @@
+'use strict';
 const electron = require("electron");
 
-const app = electron.app;
-const BrowserWindow = electron.BrowserWindow;
+const {app} = require('electron')
+const {BrowserWindow} = require('electron')
 
 const ipcMain= electron.ipcMain
 
-app.on("window-all-closed", function() {
-    if (process.platform != "darwin") { app.quit(); }
+app.on("closed", () => {
+    if (process.platform != "darwin") {
+        app.quit()
+    }
 });
 
-app.on("ready", function() {
+app.on("ready", () => {
     let mainWindow = new BrowserWindow({
         width: 1600,
         height: 640,
+        backgroundColor: '#949392'
     });
     mainWindow.loadURL(`file://${__dirname}/build/index.html`);
     mainWindow.webContents.openDevTools();
@@ -34,4 +38,5 @@ app.on("ready", function() {
 ipcMain.on("console.log", (event, arg) => {
     console.log(arg)
 })
+
 
