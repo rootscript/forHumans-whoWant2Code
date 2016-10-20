@@ -36,8 +36,8 @@ type alias Model =
 
 init : ( Model, Cmd Msg )
 init =
-    ( Model "Hellboyss II" "" ""
-    , getMoviePoster "Hellboyss II"
+    ( Model "Hellboy II" "" ""
+    , getMoviePoster "Hellboy II"
     )
 
 
