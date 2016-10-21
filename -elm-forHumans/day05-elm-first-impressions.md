@@ -32,6 +32,19 @@ After 5 days with Elm, I am in at least 2 minds about what to do with it.
 - this section was meant to be about the parts I Like, but I guess that the bad parts just muddy the water & obscure the good.  Maybe I will continue in a few days, getting out all the bad parts of the learning Elm environment, before I can concentrate on the good bits. :o)
 - Well I guess that we all understand that it is an evolving language, and with each change there will always be a subsequent period of turmoil; it would be interesting to read up on how other fastly involving languages have deal or not dealt with those circumstances.
 
+###What can I suggest that might help?
+- Build an Elm language documentation site that allow users to circle / underline parts of code examples or the explanatory text, and be able to added inline comments explaining the parts they don't understand.
+- Have a list ( like awesome-lists ) where the community can link to articles / tutorials scattered on the internet, that are out of date.  Then message the authors, kindly requesting them to update or at least clearly mark the version of Elm used is not current.
+- Get more new to Elm & new to programming people to proof read the documentation & examples.
+- Encourage people to create snippets that are well titled, rather than just chat wishing messages that will get lost in Slack over time.  There must be a way to save all the valuable bits of information from all the helpful members of the community.   Also the frequency of questions in the Slack channels are a good indication of where the documentation ( or the awareness of the relevant documentation, or the ability to find that information ) is lacking.
+- Greatly improve the search function on the Elm documentation website.
+- Get the docs published to different formats, like community contributed Dash docsets.
+- Youtube video series on how to build up applications in Elm, rather than just conference videos.  Daily drip is a good example, one 5 mins video a day ( obviously stating which version of Elm is being used in every video ).
+- Have the Elm version in every code example as a comment.
+- Ask the community what types of applications that they would like to build in Elm.
+- Encourage & facilitate users to screen share, hangout, have live coding sessions, we really aren't advancing the user base by just using written words.  Can you imaging a modern classroom where pupils didn't talk and were only allowed to read from books.
+
+
 
  
 ###End of day 5 - trying to get started with Elm
