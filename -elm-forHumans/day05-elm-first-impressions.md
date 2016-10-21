@@ -30,19 +30,21 @@ After 5 days with Elm, I am in at least 2 minds about what to do with it.
 ###What do I like?
 - The people are friendly, the language wants to be strict, and I like the fact that Elm as a language can change significantly between version releases if it is deemed for the greater good.  The frustrating part is the change procedure does't seem to be organised or discussed in the wider community, maybe its different within the inner circles, but as part of the community I feel left out, secondary.  It feels like things will change and 'we' are happy with the changes, here is one article that tells you about it.  For example, goodbye FRP, you don't need to know the details, it is too complicated, do worry that you have invested anytime in FRP, this is the new way.  If there is a new way, please explain in detail, why it is better, and get me up to speed on understanding the new concepts, and please don't be afraid to draw some diagrams, rather than paragraphs of text.  People absorb and understand different types of diagrams & presentations of data, having more than one type helps to reinforce ideas. Circle bits of code, underline the important parts, draw arrows, these are everyday tools that we all use to explain things, but for some reason we are just meant to look at code from an language someone else invented and understand it using only words and a very minimal set of comments like --MODEL --UPDATE --VIEW, is that really all we get.
 - this section was meant to be about the parts I Like, but I guess that the bad parts just muddy the water & obscure the good.  Maybe I will continue in a few days, getting out all the bad parts of the learning Elm environment, before I can concentrate on the good bits. :o)
-- Well I guess that we all understand that it is an evolving language, and with each change there will always be a subsequent period of turmoil; it would be interesting to read up on how other fastly involving languages have deal or not dealt with those circumstances.
+- Well I guess that we all understand that it is an evolving language, and with each change there will always be a subsequent period of turmoil; it would be interesting to read up on how other fastly involving languages have dealt or not dealt with those circumstances.
 
 ###What can I suggest that might help?
-- Build an Elm language documentation site that allow users to circle / underline parts of code examples or the explanatory text, and be able to added inline comments explaining the parts they don't understand.
+- Build an Elm language documentation site that allow users to circle / underline parts of code examples or the explanatory text, and be able to added inline comments explaining the parts they don't understand.  If that isn't wanted for the official docs, at least have a mirror that can be community edited, and allow parts to be officially approved as useful, then part merged with the official docs. 
 - Have a list ( like awesome-lists ) where the community can link to articles / tutorials scattered on the internet, that are out of date.  Then message the authors, kindly requesting them to update or at least clearly mark the version of Elm used is not current.
 - Get more new to Elm & new to programming people to proof read the documentation & examples.
-- Encourage people to create snippets that are well titled, rather than just chat wishing messages that will get lost in Slack over time.  There must be a way to save all the valuable bits of information from all the helpful members of the community.   Also the frequency of questions in the Slack channels are a good indication of where the documentation ( or the awareness of the relevant documentation, or the ability to find that information ) is lacking.
-- Greatly improve the search function on the Elm documentation website.
-- Get the docs published to different formats, like community contributed Dash docsets.
+- Encourage people to create Slack snippets that are well titled, rather than just chat writing messages that will get lost in Slack over time.  There must be a way to save all the valuable bits of information from all the helpful members of the community.
+- Also the frequency of repeated questions in the Slack channels are a good indication of where the documentation ( or the awareness of the relevant documentation, or the ability to find that information ) is lacking.
+- Greatly improve the search function on the Elm documentation website, added search term highlighting and boolean searches.
+- Get the official Elm docs published to different formats, like community contributed Dash docsets.
 - Youtube video series on how to build up applications in Elm, rather than just conference videos.  Daily drip is a good example, one 5 mins video a day ( obviously stating which version of Elm is being used in every video ).
 - Have the Elm version in every code example as a comment.
-- Ask the community what types of applications that they would like to build in Elm.
+- Ask the community what types of applications that they would like to build in Elm, and build one community inspired feature into the language ( where possible with every release ).
 - Encourage & facilitate users to screen share, hangout, have live coding sessions, we really aren't advancing the user base by just using written words.  Can you imaging a modern classroom where pupils didn't talk and were only allowed to read from books.
+- The community is the future of language, without it is just unused code.
 
 
 
