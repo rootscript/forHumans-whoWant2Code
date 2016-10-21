@@ -1,3 +1,4 @@
+--elm 0.17.1
 --to build this in terminal type: node ./deploy.js
 --to start the project from terminal type: npm start
 
