@@ -45,6 +45,7 @@ After 5 days with Elm, I am in at least 2 minds about what to do with it.
 - Ask the community what types of applications that they would like to build in Elm, and build one community inspired feature into the language ( where possible with every release ).
 - Encourage & facilitate users to screen share, hangout, have live coding sessions, we really aren't advancing the user base by just using written words.  Can you imaging a modern classroom where pupils didn't talk and were only allowed to read from books.
 - The community is the future of language, without it is just unused code.
+- A growing documentation library, with MORE that one example to explain each concept or language feature.  If someone gives you only on example, you have to rely on their written explanation.  If someone gives you two examples, you can start to look for things that are part of the language syntax & things that have named by the user.  Without at least two examples, it is impossible to look for patterns in the language.  I really think this is something which is NEEDED.
 
 
 
