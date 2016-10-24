@@ -55,6 +55,11 @@ update msg model =
 
 
 
+{- update msg model =
+   case msg of
+       Position x y ->
+           ( { model | xAxis =  toFloat (model.xAxis - x) / 2, yAxis = toFloat (model.yAxis - y) / toFloat 2}, Cmd.none )
+-}
 -- SUBSCRIPTIONS
 
 
