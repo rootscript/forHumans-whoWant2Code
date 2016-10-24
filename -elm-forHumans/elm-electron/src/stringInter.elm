@@ -112,7 +112,7 @@ subscriptions model =
 
 output : String
 output =
-    interpolate "My order is {0} {2} {1}" [ "one", "two", "there" ]
+    interpolate "My order is {0} {2} {1}" [ "one", "two", "three" ]
 
 
 view : Model -> Html a
