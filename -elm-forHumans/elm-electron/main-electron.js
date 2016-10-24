@@ -20,6 +20,8 @@ app.on("ready", () => {
     });
     mainWindow.loadURL(`file://${__dirname}/build/index.html`);
     mainWindow.webContents.openDevTools();
+    var nPath = require('path');
+    mainWindow.setTitle(nPath.basename(__filename));
 
     //TODO:: make this toggle ON & OFF
     ipcMain.on("scrollbarDebug", () => {
