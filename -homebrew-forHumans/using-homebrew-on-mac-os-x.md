@@ -34,22 +34,17 @@ You can also search for things to install using:
 brew search whateverYouAreLookingFor
 ```
 
-This is the first draft, and the start of a series of articles that aims to help ordinary people who want to create/code their own applications.
+Sometimes when you run `brew doctor`, it might warn you that your version of Xcode is out of date, and advise you to update it from the Mac App Store.  After you do this you should type the following to get Xcode command line tools installed too ( as you might find that /usr/local/git does not work, until you agree to the popup license agree, found when install the Xcode command line tools ):
 
-This article is published to medium.com here: [using homebrew on Mac OS X](https://medium.com/@rootscript/using-homebrew-on-mac-os-x-d4f19667b3#.b8od7gw67)
+```
+xcode-select --install
+```
+
+This is the first draft, and the start of a series of articles that aims to help ordinary people who want to create/code their own applications.
 
 ---
 
-####To be updated
-
-//TODO::maybe — add screen recording, save it to YouTube, or make an animated gif
-
-//TODO::needed — add footnotes to install homebrew, and how to start the terminal app (remember this is to help people, assume they know nothing)
-
-//TODO::bestPractise — select 2 example apps to install (always try to show 2 examples so that people can see similarities)
-
-[**rootscript/forHumans-whoWant2Code**  
-_forHumans-whoWant2Code - This is the start of a series of articles for medium.com called forHumans() => {whoWant2Code}_github.com](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Frootscript%2FforHumans-whoWant2Code "https://github.com/rootscript/forHumans-whoWant2Code")[](https://github.com/rootscript/forHumans-whoWant2Code)
-
 [**rootscript/forHumans-whoWant2Code**  
 _Where ordinary people can chat & leave message about this project._gitter.im](https://medium.com/r/?url=https%3A%2F%2Fgitter.im%2Frootscript%2FforHumans-whoWant2Code%3Futm_source%3Dbadge%26utm_medium%3Dbadge%26utm_campaign%3Dpr-badge%26utm_content%3Dbadge "https://gitter.im/rootscript/forHumans-whoWant2Code?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge")[](https://gitter.im/rootscript/forHumans-whoWant2Code?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
