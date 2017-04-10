@@ -14,7 +14,7 @@ hs.ipc.cliInstall()
 -- require('hs.ipc')
 -- Provides the server portion of the Hammerspoon command line interface
 -------------------------------------------------------------------------------------
--- Hammerspoon API Documentation
+-- Hammerspoon API Documentation shortcut
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "/", "hs. API docs", function()
     hs.hsdocs()
     hs.task.new('/usr/bin/say', nil, {'Loading, Hammerspoon API docs'}):start()
@@ -30,7 +30,7 @@ end)
 -------------------------------------------------------------------------------------
 -- Unused but useful -------------------------------------------------------- START--
 -------------------------------------------------------------------------------------
--- perhist console history across launches
+-- persistent console history across launches
 -- hs.shutdownCallback = function() hs.settings.set('history', hs.console.getHistory()) end
 -- hs.console.setHistory(hs.settings.get('history'))
 
@@ -58,7 +58,7 @@ end)
 
 
 -------------------------------------------------------------------------------------
--- Basic console auto-hide when Hammerspoon loses focus -----------------------------
+-- Basic Hammerspoon console auto-hide when it loses focus --------------------------
 -------------------------------------------------------------------------------------
 ConsoleWatcher = hs.application.watcher.new(function(name,event,hsapp)
     if name then
@@ -78,7 +78,7 @@ ConsoleWatcher:start()
 
 
 -------------------------------------------------------------------------------------
--- This Section is ALL Modifier & Hotkey related
+-- Section for ALL Modifiers & Hotkeys
 -------------------------------------------------------------------------------------
 ca = {"ctrl", "alt"}
 cac = {"ctrl", "alt", "cmd"}
@@ -89,7 +89,7 @@ cc = {"ctrl", "cmd"}
 
 
 -------------------------------------------------------------------------------------
--- This Section is ALL about requiring other modules
+-- Section for ALL about requiring other modules
 -------------------------------------------------------------------------------------
 -- load a more minimal config if running from xcode
 if hs.processInfo.bundlePath:match("/Users/rootsript/Library/Developer/Xcode/DerivedData/") then
@@ -128,14 +128,14 @@ end
 
 
 -------------------------------------------------------------------------------------
--- This Section is ALL Browser & WebView related
+-- Section for ALL Browser & WebView related
 -------------------------------------------------------------------------------------
 -- nothing commited yet
 
 
 
 -------------------------------------------------------------------------------------
--- This Section is ALL Window Switching & Moving related
+-- Section for ALL Window Switching & Moving related
 -------------------------------------------------------------------------------------
 
 -- Bind alt-Tab to show next window of current application
@@ -165,7 +165,7 @@ end)
 
 
 -------------------------------------------------------------------------------------
--- This Section is ALL Window Switching & Moving related
+-- Section for ALL Window Switching & Moving related
 -------------------------------------------------------------------------------------
 -- nothing commited yet
 
@@ -197,7 +197,7 @@ local mydesktopWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/Desktop/", De
 
 
 -------------------------------------------------------------------------------------
--- Hammerspoon Reload other config files from ~/.hammerspoon directory ----- START --
+-- Hammerspoon Reload config files on change from ~/.hammerspoon folder ---- START --
 -------------------------------------------------------------------------------------
 -- keep this at the end of my init.lua
 function reloadConfig(files)
